@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
 	<meta charset="utf-8">
 	<title>Каталог</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 	<header class="main-header">
@@ -13,7 +14,7 @@
 					<li><a href="#">Информация</a></li>
 					<li><a href="#">Новости</a></li>
 					<li><a href="#">Прайс-лист</a></li>
-					<li><a>Магазин</a></li>
+					<li><a href="#">Магазин</a></li>
 					<li><a href="#">Контакты</a></li>
 				</ul>
 			</nav>
@@ -22,5 +23,125 @@
 			</div>
 		</div>
 	</header>
+	<main class="container">
+		<h1>Средства для ухода</h1>
+		<nav class="breadcrumbs">
+			<ul>
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="#">Магазин</a></li>
+				<li><a>Средства для ухода</a></li>
+			</ul>
+		</nav>
+		<form action="https://echo.htmlacademy.ru" method="get">
+			<h2>Производители:</h2>
+			<input type="checkbox" name="baxter" id="baxter-field">
+			<label for="baxter-field">Baxter of California</label>
+			<input type="checkbox" name="mr-natty" id="mr-natty-field">
+			<label for="mr-natty-field">Mr Natty</label>
+			<input type="checkbox" name="suavecito" id="suavecito-field">
+			<label for="suavecito-field">Suavecito</label>
+			<input type="checkbox" name="malin-goetz" id="malin-goetz-field">
+			<label for="malin-goetz-field">Malin+Goetz</label>
+			<input type="checkbox" name="murrays" id="murrays-field">
+			<label for="murrays-field">Murray`s</label>
+			<input type="checkbox" name="am-crew" id="am-crew-field">
+			<label for="am-crew-field">American crew</label>
+			<h2>Группы товаров:</h2>
+			<input type="radio" name="razor" id="razor-field">
+			<label for="razor-field">Бритвенные принадлежности</label>
+			<input type="radio" name="care" id="care-field">
+			<label for="care-field">Средства для ухода</label>
+			<input type="radio" name="accessories" id="accessories-field">
+			<label for="accessories-field">Аксессуары</label>
+			<button type="button">Показать</button>
+		</form>
+		<article class="catalog-item">
+			<img src="http://placehold.it/150x100" alt="">
+			<p>Набор для путешествий<span>"Baxter of California"</span></p>
+			<div class="buy">
+				<div class="price">
+					<p>2 900 руб.</p>
+				</div>
+				<a href="#">Купить</a>
+			</div>
+		</article>
+		<article class="catalog-item">
+			<img src="http://placehold.it/150x100" alt="">
+			<p>Увлажняющий кондиционер<span>"Baxter of California"</span></p>
+			<div class="buy">
+				<div class="price">
+					<p>750 руб.</p>
+				</div>
+				<a href="#">Купить</a>
+			</div>
+		</article>
+		<article class="catalog-item">
+			<img src="http://placehold.it/150x100" alt="">
+			<p>Гель для волос<span>"Suavecito"</span></p>
+			<div class="buy">
+				<div class="price">
+					<p>290 руб.</p>
+				</div>
+				<a href="#">Купить</a>
+			</div>
+		</article>
+		
+		<article class="catalog-item">
+			<img src="http://placehold.it/150x100" alt="">
+			<p>Глина для укладки волос<span>"American crew"</span></p>
+			<div class="buy">
+				<div class="price">
+					<p>500 руб.</p>
+				</div>
+				<a href="#">Купить</a>
+			</div>
+		</article>
+		<article class="catalog-item">
+			<img src="http://placehold.it/150x100" alt="">
+			<p>Гель для волос<span>"American crew"</span></p>
+			<div class="buy">
+				<div class="price">
+					<p>300 руб.</p>
+				</div>
+				<a href="#">Купить</a>
+			</div>
+		</article>
+		<article class="catalog-item">
+			<img src="http://placehold.it/150x100" alt="">
+			<p>Набор для бритья<span>"Baxter of California"</span></p>
+			<div class="buy">
+				<div class="price">
+					<p>3 900 руб.</p>
+				</div>
+				<a href="#">Купить</a>
+			</div>
+		</article>
+		<nav class="nav-pages">
+			<a href="#">1</a>
+			<a>2</a>
+			<a href="#">3</a>
+			<a href="#">4</a>
+		</nav>
+	</main>
+	<footer class="main-footer">
+		<div class="container">
+        <section class="footer-contacts">
+          Барбершоп «Бородинский»<br>
+          Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+          <a href="#">Как нас найти?</a><br>
+          Телефон: +7 (812) 666-02-66
+        </section>
+        <section class="footer-social">
+          <p>Давайте дружить!</p>
+          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+        </section>
+        <section class="footer-copyright">
+          <p>Разработано:</p>
+          <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+        </section>
+      </div>
+	</footer>
 </body>
 </html>
