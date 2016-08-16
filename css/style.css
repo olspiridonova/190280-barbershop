@@ -1,7 +1,195 @@
+/* GENERAL*/
+
 body {
 	font-family: PT Sans Narrow;
 	font-size: 14px;
 	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+	background-color: green;
+	
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	
+	clear: both;
+}
+
+.breadcrumbs {
+	margin-bottom: 60px;
+}
+.breadcrumbs li {
+	float: left;
+	list-style: none;
+	background-color: orange;
+}
+
+
+/* HEADER*/
+
+.main-header {
+	margin-bottom: 60px;
+	background-color: black;
+}
+
+.main-navigation {
+	background-color: red;
+	width: 780px;
+	float: left;
+	min-height: 70px;
+	
+}
+
+.main-navigation li {
+	display: inline-block;
+	vertical-align: middle;
+	list-style: none;
+}
+
+.user-block {
+	float: right;
+	width: 140px;
+	min-height: 70px;
+	background-color: blue;
+}
+
+/* FOOTER*/
+
+.main-footer {
+	margin-top: 65px;
+	background-color: blue;
+}
+
+.footer-contacts {
+	float: left;
+	width: 320px;
+	margin-right: 80px;
+	background-color: red;
+}
+
+.footer-social {
+	float: left;
+	width: 220px;
+	margin-right: 180px;
+	background-color: red;
+}
+
+.footer-copyright {
+	float: right;
+	width: 140px;
+}
+
+/* INDEX*/
+
+.index-logo {
+	margin: 0 auto;
+	width: 368px;
+	height: 204px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	background-color: pink;
+}
+
+.features-item {
+	width: 300px;
+	float: left;
+	margin-right: 20px;
+	background-color: purple;
+}
+
+.features-item:last-child {
+	margin-right: 0px;
+	}
+
+.features {
+	margin-bottom: 80px;
+	background-color: yellow;
+}
+
+.index-content {
+	margin-bottom: 35px;
+	padding: 50px 80px;
+	background-color: blue;
+}
+
+.index-content-left {
+	float: left;
+	width: 380px;
+}
+
+.index-content-right {
+	float: right;
+	width: 300px;
+}
+
+/* CATALOG*/
+
+form {
+	float: left;
+	width: 220px;
+	min-height: 600px;
+	margin-right: 20px;
+	font-size: 14px;
+	background-color: red;
+}
+
+.catalog {
+	margin-bottom: 45px;
+	font-size: 0;
+}
+
+.catalog-item {
+	display: inline-block;
+	width: 220px;
+	vertical-align: top;
+	margin-right: 20px;
+	font-size: 14px;
+}
+
+.catalog-item:nth-of-type(3n) {
+	margin-right: 0px;
+}
+
+nav {
+	background-color: orange;
+}
+
+.available {
+	float: left;
+}
+
+.model {
+	float: right;
+}
+
+.photo {
+	display: inline-block;
+	width: 540px;
+	
+	background-color: yellow;
+}
+
+.photo img:firsf-of-type {
+	margin-bottom: 20px;
+}
+
+.card-item {
+	float: right;
+	width: 390px;
+}
+
+.buy {
+	float: left;
+	min-height: 40px;
+	background-color: blue;
 }
 
 h1 {
@@ -13,3 +201,4 @@ h2 {
 	font-size: 24px;
 	line-height: 30px;
 }
+
