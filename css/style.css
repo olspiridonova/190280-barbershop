@@ -7,12 +7,39 @@ body {
 	text-transform: uppercase;
 }
 
+figure {
+	font-size: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	font-size: 30px;
+	margin-bottom: 23px;
+}
+
+h2 {
+	margin: 0;
+	font-size: 24px;
+	line-height: 24px;
+}
+
+p {
+	margin: 0;
+	line-height: 24px;
+}
+
 .container {
 	width: 940px;
 	margin: 0 auto;
 	padding: 0 10px;
-	background-color: green;
-	
 }
 
 .clearfix:after {
@@ -23,24 +50,27 @@ body {
 }
 
 .breadcrumbs {
-	margin-bottom: 60px;
+	margin-bottom: 57px;
 }
+
+.breadcrumbs ul {
+
+}
+
 .breadcrumbs li {
 	float: left;
 	list-style: none;
-	background-color: orange;
 }
 
 
 /* HEADER*/
 
 .main-header {
-	margin-bottom: 60px;
-	background-color: black;
+	margin-bottom: 53px;
+	background-color: #000000;
 }
 
 .main-navigation {
-	background-color: red;
 	width: 780px;
 	float: left;
 	min-height: 70px;
@@ -57,13 +87,12 @@ body {
 	float: right;
 	width: 140px;
 	min-height: 70px;
-	background-color: blue;
 }
 
 /* FOOTER*/
 
 .main-footer {
-	margin-top: 65px;
+	margin-top: 48px;
 	background-color: blue;
 }
 
@@ -162,6 +191,24 @@ nav {
 	background-color: orange;
 }
 
+/**************************************
+ CATALOG-ITEM
+ **************************************/
+.photo {
+	display: inline-block;
+	width: 540px;
+	background-color: yellow;
+}
+
+.photo img:first-child {
+	margin-bottom: 20px;
+}
+
+.photo img:nth-child(2),
+.photo img:nth-child(3) {
+	margin-right: 20px;
+}
+
 .available {
 	float: left;
 }
@@ -170,16 +217,7 @@ nav {
 	float: right;
 }
 
-.photo {
-	display: inline-block;
-	width: 540px;
-	
-	background-color: yellow;
-}
-
-.photo img:firsf-of-type {
-	margin-bottom: 20px;
-}
+ 
 
 .card-item {
 	float: right;
@@ -190,15 +228,5 @@ nav {
 	float: left;
 	min-height: 40px;
 	background-color: blue;
-}
-
-h1 {
-	font-size: 30px;
-	line-height: 42px;
-}
-
-h2 {
-	font-size: 24px;
-	line-height: 30px;
 }
 
